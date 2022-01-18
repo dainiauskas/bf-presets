@@ -120,10 +120,42 @@
     }
   },
   "uniqueValues": {
-    "firmware_version": [],
-    "category": [],
-    "author": [],
-    "keywords": []
+    "firmware_version": [
+      "4.3"
+    ],
+    "category": [
+      "LEDS"
+    ],
+    "author": [
+      "Dainius Matusevicius"
+    ],
+    "keywords": [
+      "defaults",
+      "diatone",
+      "leds",
+      "reset",
+      "taycan"
+    ]
   },
-  "presets": []
+  "presets": [
+    {
+      "fullPath": "presets/4.3/leds/diatone_taycan.txt",
+      "hash": "277022fac1ca04727260c4e2f20f922054d9719132e61a7e5e2662fee07bf619",
+      "title": "Diatone Taycan 3.1 4.3 LED settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "LEDS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "diatone",
+        "taycan",
+        "reset",
+        "leds"
+      ],
+      "author": "Dainius Matusevicius",
+      "priority": 0
+    }
+  ]
 }
