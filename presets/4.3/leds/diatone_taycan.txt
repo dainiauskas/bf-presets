@@ -1,0 +1,29 @@
+#$ TITLE: Diatone Taycan 3.1 4.3 LED settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: LEDS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, diatone, taycan, reset, leds
+#$ AUTHOR: Dainius Matusevicius
+#$ DESCRIPTION: Resets LED settings to 4.3 defaults
+#$ DESCRIPTION: Options: LED, colour or mode_color resets.
+
+# enable feature
+feature LED_STRIP
+
+# led
+led 0 0,0::C:1
+led 1 1,0::C:2
+led 2 2,0::C:3
+led 3 3,0::C:4
+led 4 4,0::C:5
+led 5 5,0::C:8
+led 6 6,0::C:7
+led 7 7,0::C:11
+led 8 8,0::C:7
+led 9 9,0::C:10
+led 10 10,0::C:13
+led 11 11,0::C:6
+led 12 12,0::C:13
+led 13 13,0::C:11
+led 14 14,0::C:5
+led 15 15,15::C:1
